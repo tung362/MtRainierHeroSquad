@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "SplashScreenCameraShake",
+		uint64 ResourceId = 54f5ca1c6b597f97,
+	},
+},

@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "InstructionButton",
+		uint64 ResourceId = 54a2f7bc68e6e6f9,
+	},
+},

@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "GunManControllerTest",
+		uint64 ResourceId = 54ce903460111bd1,
+	},
+},

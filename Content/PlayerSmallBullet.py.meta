@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "PlayerSmallBullet",
+		uint64 ResourceId = 54b593c82061efd8,
+	},
+},

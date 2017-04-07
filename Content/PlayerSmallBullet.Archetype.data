@@ -1,0 +1,92 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "PlayerSmallBullet",
+	},
+	Archetyped = 
+	{
+		string Name = "54b5938e54d30cc4:PlayerSmallBullet",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [14.3299, 9.85897, 0.0999985],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "54b59270ec20ecf4:PlayerBullet",
+		bool FlipX = false,
+		bool FlipY = false,
+		Vec4 Color = [1, 1, 1, 1],
+		bool Visible = true,
+		bool OnTop = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+		string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = false,
+		bool RotationLocked = false,
+		bool Mode2D = true,
+		bool AllowSleep = true,
+		bool Inherit2DMode = true,
+		Vec3 Velocity = [0, 0, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	BoxCollider = 
+	{
+		bool Ghost = false,
+		bool SendsMessages = true,
+		bool Seamless = true,
+		string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
+		string SerializedGroupName = "54b5896c63f1d55c:PlayerProjectile",
+		Vec3 Offset = [-0.03, 0.02, 0],
+		Vec3 Size = [0.25, 0.1, 0.5],
+	},
+	Orientation = 
+	{
+		Vec3 UpVector = [0, 0, 1],
+		Vec3 ForwardVector = [1, 0, 0],
+		OrientationBases DefaultBases = ForwardXUpZ,
+	},
+	DestroyOffScreen = 
+	{
+		float timer = 0,
+	},
+	GravityEffect = 
+	{
+		bool Active = true,
+		bool WakeUpOnChange = true,
+		bool LocalSpaceDirection = false,
+		float Strength = 10,
+		Vec3 Direction = [0, 1, 0],
+	},
+	PlayerSmallBullet = 
+	{
+		bool Start = true,
+		float FireY = 0,
+		float Speed = 200,
+		bool HasCollided = false,
+	},
+	SoundEmitter = 
+	{
+		bool StartPlaying = true,
+		int ExtraPriority = 0,
+		string CueName = "549625324f31715a:PlayerShootSmallBullet",
+		float Volume = 0.2,
+		float Pitch = 1,
+		bool Positional = true,
+	},
+},

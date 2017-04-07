@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "JulioHealthBar",
+		uint64 ResourceId = 5498f6cb28a99333,
+	},
+},

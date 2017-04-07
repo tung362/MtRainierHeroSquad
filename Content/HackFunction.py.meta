@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "HackFunction",
+		uint64 ResourceId = 54c36b0def48244d,
+	},
+},

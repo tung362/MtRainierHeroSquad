@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "PlayerGiantBullet",
+		uint64 ResourceId = 549de670fe3b070e,
+	},
+},

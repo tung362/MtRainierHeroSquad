@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "Wall1",
+		uint64 ResourceId = 54b3f53ef5c6e36c,
+	},
+},

@@ -1,0 +1,296 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "Peyton",
+	},
+	Archetyped = 
+	{
+		string Name = "549d462c92c532db:Peyton",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [0, -192.143, 0],
+		Vec3 Scale = [5, 5, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "549de9dbc36d4a71:PeytonIdle",
+		bool FlipX = false,
+		bool FlipY = false,
+		Vec4 Color = [1, 1, 1, 1],
+		bool Visible = true,
+		bool OnTop = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+		string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = false,
+		bool RotationLocked = true,
+		bool Mode2D = false,
+		bool AllowSleep = false,
+		bool Inherit2DMode = true,
+		Vec3 Velocity = [0, -21.4285, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	BoxCollider = 
+	{
+		bool Ghost = false,
+		bool SendsMessages = true,
+		bool Seamless = true,
+		string MaterialName = "54b73753821d4834:Heavy",
+		string SerializedGroupName = "54b589666582f619:Player",
+		Vec3 Offset = [0.02, 0.15, 0],
+		Vec3 Size = [0.05, 0.25, 5],
+	},
+	DragEffect = 
+	{
+		bool Active = true,
+		bool WakeUpOnChange = true,
+		float Drag = 0.7,
+	},
+	GravityEffect = 
+	{
+		bool Active = true,
+		bool WakeUpOnChange = true,
+		bool LocalSpaceDirection = false,
+		float Strength = 15,
+		Vec3 Direction = [0, -1, 0],
+	},
+	MassOverride = 
+	{
+		bool Active = true,
+		float invMass = 0.694444,
+		Vec3 invInertiaX = [0, 0, 0],
+		Vec3 invInertiaY = [0, 0, 0],
+		Vec3 invInertiaZ = [0, 0, 0],
+		Vec3 LocalCenterOfMass = [0, 0, 0],
+	},
+	PeytonPlayerController = 
+	{
+		bool OnGround = false,
+		float MoveSpeed = 15,
+		float JumpSpeed = 15,
+		int MaxNumberOfJumps = 2,
+		bool IsLeft = false,
+		bool IsRight = true,
+		bool CanFall = false,
+		bool CanWalk = false,
+		bool CanWalkBackward = false,
+		bool CanKneel = false,
+		bool CanMakeMove = true,
+		bool CanMakeMove2 = true,
+		bool TheKneel = false,
+		bool CanSwitchRightWalking = false,
+		bool CanSwitchRightFalling = false,
+		bool CanSwitchLeftWalking = false,
+		bool CanSwitchLeftFalling = false,
+		bool CanSwitchRightKneel = false,
+		bool CanSwitchLeftKneel = false,
+		bool KneelUsed = false,
+		bool Side = false,
+		bool Side2 = false,
+		bool Side3 = false,
+		bool Start = true,
+		float ChaseSpeed = 3,
+		float VerticleDistance = 0,
+		float HorizontalDistance = 0,
+		bool CanMoveX = false,
+		bool CanMoveY = false,
+	},
+	PeytonHealth = 
+	{
+		float MaxHealth = 150,
+		float CurrentHealth = 150,
+		bool Start = true,
+		bool DeathSpawn = false,
+		bool CanTick = true,
+		bool LayDead = false,
+	},
+	Microphone = 
+	{
+		bool Active = true,
+	},
+	Hierarchy = 
+	{
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 2,
+			},
+			Named = 
+			{
+				string Name = "BodyPivot",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0.00837076, 0.0896627, -0.0001],
+				Vec3 Scale = [0.01, 0.01, 0.01],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "5275aa4d802dd6dc:Square",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = false,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+				string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+			},
+			Orientation = 
+			{
+				Vec3 UpVector = [0, 1, 0],
+				Vec3 ForwardVector = [1, 0, 0],
+				OrientationBases DefaultBases = ForwardXUpY,
+			},
+			PeytonBody = 
+			{
+				bool IsRight = false,
+				bool IsLeft = false,
+				bool LeftRight = false,
+				bool Start = true,
+				float BodyX = 0,
+				float BodyZ = 0,
+			},
+			Hierarchy = 
+			{
+				Cog = 
+				{
+					LinkId = 
+					{
+						uint Id = 3,
+					},
+					Named = 
+					{
+						string Name = "PeytonBody",
+					},
+					Transform = 
+					{
+						Vec3 Translation = [-0.921388, 19.1203, 0.2],
+						Vec3 Scale = [100, 100, 100],
+						Quat Rotation = [0, 0, 0, 1],
+					},
+					Sprite = 
+					{
+						string SpriteSource = "549de9a8f1916e9f:PeytonBody",
+						bool FlipX = false,
+						bool FlipY = false,
+						Vec4 Color = [1, 1, 1, 1],
+						bool Visible = true,
+						bool OnTop = false,
+						bool AnimationActive = true,
+						float AnimationSpeed = 1,
+						uint StartFrame = 0,
+						BlendMode BlendMode = Alpha,
+						SpriteGeometryMode GeometryMode = ZPlane,
+						string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+					},
+					PeytonBodyShoot = 
+					{
+						bool CanAnimate = true,
+						bool CanAnimateIdle = false,
+						bool CanShoot = false,
+						bool CanIdle = false,
+					},
+					Hierarchy = 
+					{
+						Cog = 
+						{
+							LinkId = 
+							{
+								uint Id = 4,
+							},
+							Named = 
+							{
+								string Name = "MiniMachineGun1",
+							},
+							Transform = 
+							{
+								Vec3 Translation = [0.654257, -0.186699, 0.0979985],
+								Vec3 Scale = [0.05, 0.05, 1],
+								Quat Rotation = [0, 0, 0, 1],
+							},
+							MiniMachineGun1 = 
+							{
+								float GlobalZ = 0,
+								float timer = 0,
+								float Delay = 0.1,
+								bool start = true,
+								float RandomAngle = 0,
+							},
+						},
+						Cog = 
+						{
+							LinkId = 
+							{
+								uint Id = 5,
+							},
+							Named = 
+							{
+								string Name = "MiniMachineGun2",
+							},
+							Transform = 
+							{
+								Vec3 Translation = [0.654257, -0.230418, 0.0979985],
+								Vec3 Scale = [0.05, 0.05, 1],
+								Quat Rotation = [0, 0, 0, 1],
+							},
+							MiniMachineGun1 = 
+							{
+								float GlobalZ = 0,
+								float timer = 0,
+								float Delay = 0.1,
+								bool start = true,
+								float RandomAngle = 0,
+							},
+						},
+						Cog = 
+						{
+							LinkId = 
+							{
+								uint Id = 6,
+							},
+							Named = 
+							{
+								string Name = "MiniMachineGun3",
+							},
+							Transform = 
+							{
+								Vec3 Translation = [0.654257, -0.275644, 0.0979985],
+								Vec3 Scale = [0.05, 0.05, 1],
+								Quat Rotation = [0, 0, 0, 1],
+							},
+							MiniMachineGun1 = 
+							{
+								float GlobalZ = 0,
+								float timer = 0,
+								float Delay = 0.1,
+								bool start = true,
+								float RandomAngle = 0,
+							},
+						},
+					},
+				},
+			},
+		},
+	},
+},

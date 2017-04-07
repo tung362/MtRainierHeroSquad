@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "SedrickPlayerController",
+		uint64 ResourceId = 549dddc261f5e7d7,
+	},
+},

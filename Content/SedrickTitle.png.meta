@@ -1,0 +1,20 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "SedrickTitle",
+		uint64 ResourceId = 5498ebe1ce85dd94,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 500,
+		uint FrameSizeY = 200,
+		uint FrameCount = 1,
+		float FrameDelay = 0.0833333,
+		float OriginX = 250,
+		float OriginY = 100,
+		float PixelsPerUnit = 64,
+		bool Smoothing = false,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+		SpriteFill Fill = Stretch,
+	},
+},

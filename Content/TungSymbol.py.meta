@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TungSymbol",
+		uint64 ResourceId = 5498098cbf1903fa,
+	},
+},

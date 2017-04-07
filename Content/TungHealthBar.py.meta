@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TungHealthBar",
+		uint64 ResourceId = 5498099abb1cb8e0,
+	},
+},

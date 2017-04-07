@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TungHealth",
+		uint64 ResourceId = 549b7d715638219e,
+	},
+},

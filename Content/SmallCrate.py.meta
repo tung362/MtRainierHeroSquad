@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "SmallCrate",
+		uint64 ResourceId = 54b23ad8805a49d7,
+	},
+},

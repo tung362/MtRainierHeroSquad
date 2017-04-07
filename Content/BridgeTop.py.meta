@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "BridgeTop",
+		uint64 ResourceId = 54a746d449af4147,
+	},
+},

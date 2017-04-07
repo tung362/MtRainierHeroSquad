@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "GunManBodyRotation2",
+		uint64 ResourceId = 5499cf9fa68c350c,
+	},
+},

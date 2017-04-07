@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TreyHealthBar",
+		uint64 ResourceId = 5498f414a6b1d62d,
+	},
+},

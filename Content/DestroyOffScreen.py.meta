@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "DestroyOffScreen",
+		uint64 ResourceId = 54b593723460fdb4,
+	},
+},

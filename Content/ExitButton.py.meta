@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "ExitButton",
+		uint64 ResourceId = 54a2f014946216c2,
+	},
+},

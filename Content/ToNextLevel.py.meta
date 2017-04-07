@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "ToNextLevel",
+		uint64 ResourceId = 54974fa47f518c57,
+	},
+},

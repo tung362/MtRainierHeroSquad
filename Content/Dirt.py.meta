@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "Dirt",
+		uint64 ResourceId = 54b43d7d50af3161,
+	},
+},

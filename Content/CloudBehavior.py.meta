@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "CloudBehavior",
+		uint64 ResourceId = 54a2221241d1ef68,
+	},
+},

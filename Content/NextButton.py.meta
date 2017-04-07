@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "NextButton",
+		uint64 ResourceId = 5498eaea85b15ca8,
+	},
+},

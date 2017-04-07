@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "JulioSymbol",
+		uint64 ResourceId = 5498f6302dff9ff1,
+	},
+},

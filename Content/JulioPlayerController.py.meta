@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "JulioPlayerController",
+		uint64 ResourceId = 549dd12f00958208,
+	},
+},

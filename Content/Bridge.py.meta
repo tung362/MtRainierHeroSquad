@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "Bridge",
+		uint64 ResourceId = 54b317622a4ec2d7,
+	},
+},

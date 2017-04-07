@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "SedrickSymbol",
+		uint64 ResourceId = 5498f5ad0c960707,
+	},
+},

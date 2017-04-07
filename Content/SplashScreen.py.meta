@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "SplashScreen",
+		uint64 ResourceId = 54f5c853fb4ead65,
+	},
+},

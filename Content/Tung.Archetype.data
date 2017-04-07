@@ -1,0 +1,471 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "Tung",
+	},
+	Archetyped = 
+	{
+		string Name = "54b593fc562667dd:Tung",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [0, -262.858, 0],
+		Vec3 Scale = [5, 5, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "54b6daba8e831522:TungIdle",
+		bool FlipX = false,
+		bool FlipY = false,
+		Vec4 Color = [1, 1, 1, 1],
+		bool Visible = true,
+		bool OnTop = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+		string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = false,
+		bool RotationLocked = true,
+		bool Mode2D = false,
+		bool AllowSleep = false,
+		bool Inherit2DMode = true,
+		Vec3 Velocity = [0, -21.4285, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	BoxCollider = 
+	{
+		bool Ghost = false,
+		bool SendsMessages = true,
+		bool Seamless = true,
+		string MaterialName = "54b73753821d4834:Heavy",
+		string SerializedGroupName = "54b589666582f619:Player",
+		Vec3 Offset = [0.02, 0.15, 0],
+		Vec3 Size = [0.05, 0.25, 5],
+	},
+	DragEffect = 
+	{
+		bool Active = true,
+		bool WakeUpOnChange = true,
+		float Drag = 0.7,
+	},
+	GravityEffect = 
+	{
+		bool Active = true,
+		bool WakeUpOnChange = true,
+		bool LocalSpaceDirection = false,
+		float Strength = 15,
+		Vec3 Direction = [0, -1, 0],
+	},
+	PlayerController = 
+	{
+		bool OnGround = false,
+		float MoveSpeed = 25,
+		float JumpSpeed = 20,
+		int MaxNumberOfJumps = 2,
+		bool IsLeft = false,
+		bool IsRight = true,
+		bool CanFall = false,
+		bool CanWalk = false,
+		bool CanWalkBackward = false,
+		bool CanKneel = false,
+		bool CanMakeMove = true,
+		bool CanMakeMove2 = true,
+		bool TheKneel = false,
+		bool CanSwitchRightWalking = false,
+		bool CanSwitchRightFalling = false,
+		bool CanSwitchLeftWalking = false,
+		bool CanSwitchLeftFalling = false,
+		bool CanSwitchRightKneel = false,
+		bool CanSwitchLeftKneel = false,
+		bool KneelUsed = false,
+		bool Side = false,
+		bool Side2 = false,
+		bool Side3 = false,
+		bool Start = true,
+		float ChaseSpeed = 3,
+		float VerticleDistance = 0,
+		float HorizontalDistance = 0,
+		bool CanMoveX = false,
+		bool CanMoveY = false,
+	},
+	MassOverride = 
+	{
+		bool Active = true,
+		float invMass = 0.694444,
+		Vec3 invInertiaX = [0, 0, 0],
+		Vec3 invInertiaY = [0, 0, 0],
+		Vec3 invInertiaZ = [0, 0, 0],
+		Vec3 LocalCenterOfMass = [0, 0, 0],
+	},
+	TungHealth = 
+	{
+		float MaxHealth = 100,
+		float CurrentHealth = 100,
+		bool Start = true,
+		bool DeathSpawn = false,
+		bool CanTick = true,
+		bool LayDead = false,
+	},
+	Microphone = 
+	{
+		bool Active = true,
+	},
+	Hierarchy = 
+	{
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 2,
+			},
+			Named = 
+			{
+				string Name = "BodyPivot",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0.00837076, 0.100718, -0.0001],
+				Vec3 Scale = [0.01, 0.01, 0.01],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "5275aa4d802dd6dc:Square",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = false,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+				string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+			},
+			Orientation = 
+			{
+				Vec3 UpVector = [0, 1, 0],
+				Vec3 ForwardVector = [1, 0, 0],
+				OrientationBases DefaultBases = ForwardXUpY,
+			},
+			TungBody = 
+			{
+				bool IsRight = false,
+				bool IsLeft = false,
+				bool LeftRight = false,
+				bool Start = true,
+				float BodyX = 0,
+				float BodyZ = 0,
+			},
+			Hierarchy = 
+			{
+				Cog = 
+				{
+					LinkId = 
+					{
+						uint Id = 3,
+					},
+					Named = 
+					{
+						string Name = "TungBody",
+					},
+					Transform = 
+					{
+						Vec3 Translation = [-0.921388, 15.9043, 0],
+						Vec3 Scale = [100, 100, 100],
+						Quat Rotation = [0, 0, 0, 1],
+					},
+					Sprite = 
+					{
+						string SpriteSource = "54a2e784ea6c44ee:TungBody",
+						bool FlipX = false,
+						bool FlipY = false,
+						Vec4 Color = [1, 1, 1, 1],
+						bool Visible = true,
+						bool OnTop = false,
+						bool AnimationActive = true,
+						float AnimationSpeed = 1,
+						uint StartFrame = 0,
+						BlendMode BlendMode = Alpha,
+						SpriteGeometryMode GeometryMode = ZPlane,
+						string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+					},
+					TungBodyShoot = 
+					{
+						bool CanAnimate = true,
+						bool CanAnimateIdle = false,
+						bool CanShoot = false,
+						bool CanIdle = false,
+					},
+					Hierarchy = 
+					{
+						Cog = 
+						{
+							LinkId = 
+							{
+								uint Id = 4,
+							},
+							Named = 
+							{
+								string Name = "MachineGun1",
+							},
+							Transform = 
+							{
+								Vec3 Translation = [0.194807, -0.0379384, 0],
+								Vec3 Scale = [0.05, 0.05, 1],
+								Quat Rotation = [0, 0, 0, 1],
+							},
+							MachineGun1 = 
+							{
+								float GlobalZ = 0,
+								float timer = 0,
+								float Delay = 0.2,
+								bool start = true,
+								float RandomAngle = 0,
+							},
+						},
+						Cog = 
+						{
+							LinkId = 
+							{
+								uint Id = 5,
+							},
+							Named = 
+							{
+								string Name = "MachineGun2",
+							},
+							Transform = 
+							{
+								Vec3 Translation = [0.194807, -0.0379384, 0],
+								Vec3 Scale = [0.05, 0.05, 1],
+								Quat Rotation = [0, 0, 0, 1],
+							},
+							MachineGun1 = 
+							{
+								float GlobalZ = 0,
+								float timer = 0,
+								float Delay = 0.25,
+								bool start = true,
+								float RandomAngle = 0,
+							},
+						},
+						Cog = 
+						{
+							LinkId = 
+							{
+								uint Id = 6,
+							},
+							Named = 
+							{
+								string Name = "MachineGun3",
+							},
+							Transform = 
+							{
+								Vec3 Translation = [0.194807, -0.0379384, 0],
+								Vec3 Scale = [0.05, 0.05, 1],
+								Quat Rotation = [0, 0, 0, 1],
+							},
+							MachineGun1 = 
+							{
+								float GlobalZ = 0,
+								float timer = 0,
+								float Delay = 0.3,
+								bool start = true,
+								float RandomAngle = 0,
+							},
+						},
+						Cog = 
+						{
+							LinkId = 
+							{
+								uint Id = 7,
+							},
+							Named = 
+							{
+								string Name = "MachineGun4",
+							},
+							Transform = 
+							{
+								Vec3 Translation = [0.194807, -0.0379384, 0],
+								Vec3 Scale = [0.05, 0.05, 1],
+								Quat Rotation = [0, 0, 0, 1],
+							},
+							MachineGun1 = 
+							{
+								float GlobalZ = 0,
+								float timer = 0,
+								float Delay = 0.35,
+								bool start = true,
+								float RandomAngle = 0,
+							},
+						},
+						Cog = 
+						{
+							LinkId = 
+							{
+								uint Id = 8,
+							},
+							Named = 
+							{
+								string Name = "MachineGun5",
+							},
+							Transform = 
+							{
+								Vec3 Translation = [0.194807, -0.0379384, 0],
+								Vec3 Scale = [0.05, 0.05, 1],
+								Quat Rotation = [0, 0, 0, 1],
+							},
+							MachineGun1 = 
+							{
+								float GlobalZ = 0,
+								float timer = 0,
+								float Delay = 0.4,
+								bool start = true,
+								float RandomAngle = 0,
+							},
+						},
+						Cog = 
+						{
+							LinkId = 
+							{
+								uint Id = 9,
+							},
+							Named = 
+							{
+								string Name = "MachineGun6",
+							},
+							Transform = 
+							{
+								Vec3 Translation = [0.302847, 0.00678523, 0],
+								Vec3 Scale = [0.05, 0.05, 1],
+								Quat Rotation = [0, 0, 0, 1],
+							},
+							MachineGun1 = 
+							{
+								float GlobalZ = 0,
+								float timer = 0,
+								float Delay = 0.4,
+								bool start = true,
+								float RandomAngle = 0,
+							},
+						},
+						Cog = 
+						{
+							LinkId = 
+							{
+								uint Id = 10,
+							},
+							Named = 
+							{
+								string Name = "MachineGun7",
+							},
+							Transform = 
+							{
+								Vec3 Translation = [0.302847, 0.00678523, 0],
+								Vec3 Scale = [0.05, 0.05, 1],
+								Quat Rotation = [0, 0, 0, 1],
+							},
+							MachineGun1 = 
+							{
+								float GlobalZ = 0,
+								float timer = 0,
+								float Delay = 0.2,
+								bool start = true,
+								float RandomAngle = 0,
+							},
+						},
+						Cog = 
+						{
+							LinkId = 
+							{
+								uint Id = 11,
+							},
+							Named = 
+							{
+								string Name = "MachineGun8",
+							},
+							Transform = 
+							{
+								Vec3 Translation = [0.302847, 0.00678523, 0],
+								Vec3 Scale = [0.05, 0.05, 1],
+								Quat Rotation = [0, 0, 0, 1],
+							},
+							MachineGun1 = 
+							{
+								float GlobalZ = 0,
+								float timer = 0,
+								float Delay = 0.35,
+								bool start = true,
+								float RandomAngle = 0,
+							},
+						},
+						Cog = 
+						{
+							LinkId = 
+							{
+								uint Id = 12,
+							},
+							Named = 
+							{
+								string Name = "MachineGun9",
+							},
+							Transform = 
+							{
+								Vec3 Translation = [0.302847, 0.00678523, 0],
+								Vec3 Scale = [0.05, 0.05, 1],
+								Quat Rotation = [0, 0, 0, 1],
+							},
+							MachineGun1 = 
+							{
+								float GlobalZ = 0,
+								float timer = 0,
+								float Delay = 0.25,
+								bool start = true,
+								float RandomAngle = 0,
+							},
+						},
+						Cog = 
+						{
+							LinkId = 
+							{
+								uint Id = 13,
+							},
+							Named = 
+							{
+								string Name = "MachineGun10",
+							},
+							Transform = 
+							{
+								Vec3 Translation = [0.302847, 0.00678523, 0],
+								Vec3 Scale = [0.05, 0.05, 1],
+								Quat Rotation = [0, 0, 0, 1],
+							},
+							MachineGun1 = 
+							{
+								float GlobalZ = 0,
+								float timer = 0,
+								float Delay = 0.3,
+								bool start = true,
+								float RandomAngle = 0,
+							},
+						},
+					},
+				},
+			},
+		},
+	},
+},

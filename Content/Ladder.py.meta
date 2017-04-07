@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "Ladder",
+		uint64 ResourceId = 54b248bca7b9b4ca,
+	},
+},

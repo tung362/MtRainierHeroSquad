@@ -1,0 +1,30 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "Sedrick1",
+	},
+	Archetyped = 
+	{
+		string Name = "5495f47c578ed150:Sedrick1",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [20.0209, 13.002, 0.0999997],
+		Vec3 Scale = [1, 1, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	SoundEmitter = 
+	{
+		bool StartPlaying = false,
+		int ExtraPriority = 0,
+		string CueName = "5495faf4eed8d35f:Sedrick1",
+		float Volume = 0.2,
+		float Pitch = 1,
+		bool Positional = false,
+	},
+},

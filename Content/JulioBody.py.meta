@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "JulioBody",
+		uint64 ResourceId = 549dd22846df6957,
+	},
+},

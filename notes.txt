@@ -1,0 +1,14 @@
+Make Skys
+Make Building Blocks
+Make Explosive Blocks
+Add Player Health
+Make Enemy AI
+Make Other Players
+
+Note: When Making Enemy AI, make enemy switch to hostile if hit by projectile.
+
+http://rgb.to/hex/d6c6aa
+
+Franklin Gothic Heavy
+
+0, 0.916157, 0, 0.148159

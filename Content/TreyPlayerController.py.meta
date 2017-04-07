@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TreyPlayerController",
+		uint64 ResourceId = 54a1052ce39f077d,
+	},
+},

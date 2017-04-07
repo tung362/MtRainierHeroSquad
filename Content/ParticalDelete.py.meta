@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "ParticalDelete",
+		uint64 ResourceId = 54b44c80b365de4d,
+	},
+},

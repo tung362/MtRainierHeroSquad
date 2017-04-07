@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "PeytonPlayerController",
+		uint64 ResourceId = 549deaca0e8522d2,
+	},
+},

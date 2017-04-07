@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "Barrel",
+		uint64 ResourceId = 54b23c742cce2d82,
+	},
+},

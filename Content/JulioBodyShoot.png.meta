@@ -1,0 +1,20 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "JulioBodyShoot",
+		uint64 ResourceId = 549dd0f8e558142f,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 75,
+		uint FrameSizeY = 50,
+		uint FrameCount = 4,
+		float FrameDelay = 0.05,
+		float OriginX = 37,
+		float OriginY = 25,
+		float PixelsPerUnit = 64,
+		bool Smoothing = false,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+		SpriteFill Fill = Stretch,
+	},
+},

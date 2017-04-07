@@ -1,0 +1,20 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "AirBalloon",
+		uint64 ResourceId = 549754fef75bc338,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 122,
+		uint FrameSizeY = 136,
+		uint FrameCount = 1,
+		float FrameDelay = 0.0833333,
+		float OriginX = 61,
+		float OriginY = 68,
+		float PixelsPerUnit = 64,
+		bool Smoothing = false,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+		SpriteFill Fill = Stretch,
+	},
+},

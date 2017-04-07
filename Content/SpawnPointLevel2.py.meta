@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "SpawnPointLevel2",
+		uint64 ResourceId = 5495bc02b2c1e062,
+	},
+},

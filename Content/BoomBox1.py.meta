@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "BoomBox1",
+		uint64 ResourceId = 549dd93940b363b2,
+	},
+},

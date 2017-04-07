@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "PeytonBodyShoot",
+		uint64 ResourceId = 549de46e738b09ae,
+	},
+},

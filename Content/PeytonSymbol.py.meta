@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "PeytonSymbol",
+		uint64 ResourceId = 5498f57df39c8f32,
+	},
+},

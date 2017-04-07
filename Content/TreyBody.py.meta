@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "TreyBody",
+		uint64 ResourceId = 54a1065b3b2d83fb,
+	},
+},

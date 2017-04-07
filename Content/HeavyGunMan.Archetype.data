@@ -1,0 +1,521 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "HeavyGunMan",
+	},
+	Archetyped = 
+	{
+		string Name = "5496510994dd01c8:HeavyGunMan",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [153.184, 13.2959, 0],
+		Vec3 Scale = [5, 5, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "549650b1678728e9:HeavyGunManIdle",
+		bool FlipX = false,
+		bool FlipY = false,
+		Vec4 Color = [1, 1, 1, 1],
+		bool Visible = true,
+		bool OnTop = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+		string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = false,
+		bool RotationLocked = true,
+		bool Mode2D = true,
+		bool AllowSleep = false,
+		bool Inherit2DMode = true,
+		Vec3 Velocity = [0, 0, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	BoxCollider = 
+	{
+		bool Ghost = false,
+		bool SendsMessages = true,
+		bool Seamless = true,
+		string MaterialName = "54b73753821d4834:Heavy",
+		string SerializedGroupName = "54b5895268c9d9e9:Enemy",
+		Vec3 Offset = [0, 0.15, 0],
+		Vec3 Size = [0.05, 0.35, 0.5],
+	},
+	DragEffect = 
+	{
+		bool Active = true,
+		bool WakeUpOnChange = true,
+		float Drag = 0.7,
+	},
+	GravityEffect = 
+	{
+		bool Active = true,
+		bool WakeUpOnChange = true,
+		bool LocalSpaceDirection = false,
+		float Strength = 15,
+		Vec3 Direction = [0, -1, 0],
+	},
+	MassOverride = 
+	{
+		bool Active = true,
+		float invMass = 0.025,
+		Vec3 invInertiaX = [0, 0, 0],
+		Vec3 invInertiaY = [0, 0, 0],
+		Vec3 invInertiaZ = [0, 0, 0],
+		Vec3 LocalCenterOfMass = [0, 0, 0],
+	},
+	HeavyGunManController = 
+	{
+		bool OnGround = false,
+		float MoveSpeed = 20,
+		float JumpSpeed = 20,
+		int MaxNumberOfJumps = 2,
+		bool IsLeftR = false,
+		bool IsRightR = true,
+		bool CanFall = false,
+		bool CanWalk = false,
+		bool CanWalkBackward = false,
+		bool CanMakeMove = true,
+		bool CanMakeMove2 = true,
+		bool CanSwitchRightWalking = false,
+		bool CanSwitchRightFalling = false,
+		bool CanSwitchLeftWalking = false,
+		bool CanSwitchLeftFalling = false,
+		bool Side = false,
+		bool Side2 = false,
+		bool Side3 = false,
+		bool Start = true,
+		int RandomAction = 0,
+		float RandomTime = 0,
+		float Timer = 0,
+		bool MLeft = false,
+		bool MRight = false,
+		bool AICanMove = false,
+	},
+	HeavyGunManHealth = 
+	{
+		float MaxHealth = 1500,
+		float CurrentHealth = 1500,
+		bool Start = true,
+		bool DeathSpawn = false,
+		bool CanTick = true,
+		bool LayDead = false,
+	},
+	Hierarchy = 
+	{
+		Cog = 
+		{
+			LinkId = 
+			{
+				uint Id = 2,
+			},
+			Named = 
+			{
+				string Name = "BodyPivot",
+			},
+			Transform = 
+			{
+				Vec3 Translation = [0.00837076, 0.186145, -0.0001],
+				Vec3 Scale = [0.01, 0.01, 0.01],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Sprite = 
+			{
+				string SpriteSource = "5275aa4d802dd6dc:Square",
+				bool FlipX = false,
+				bool FlipY = false,
+				Vec4 Color = [1, 1, 1, 1],
+				bool Visible = false,
+				bool OnTop = false,
+				bool AnimationActive = true,
+				float AnimationSpeed = 1,
+				uint StartFrame = 0,
+				BlendMode BlendMode = Alpha,
+				SpriteGeometryMode GeometryMode = ZPlane,
+				string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+			},
+			HeavyGunManBody = 
+			{
+				bool IsRight = false,
+				bool IsLeft = false,
+				bool LeftRight = false,
+				bool Start = true,
+				float BodyX = 0,
+				float BodyZ = 0,
+				bool IsNormal = true,
+			},
+			Orientation = 
+			{
+				Vec3 UpVector = [0, 1, 0],
+				Vec3 ForwardVector = [1, 0, 0],
+				OrientationBases DefaultBases = ForwardXUpY,
+			},
+			Hierarchy = 
+			{
+				Cog = 
+				{
+					LinkId = 
+					{
+						uint Id = 3,
+					},
+					Named = 
+					{
+						string Name = "HeavyGunManBody",
+					},
+					Transform = 
+					{
+						Vec3 Translation = [-0.921388, 25.1003, 0.2],
+						Vec3 Scale = [100, 100, 100],
+						Quat Rotation = [0, 0, 0, 1],
+					},
+					Sprite = 
+					{
+						string SpriteSource = "54965146642f4201:HeavyGunManBody",
+						bool FlipX = false,
+						bool FlipY = false,
+						Vec4 Color = [1, 1, 1, 1],
+						bool Visible = true,
+						bool OnTop = false,
+						bool AnimationActive = true,
+						float AnimationSpeed = 1,
+						uint StartFrame = 0,
+						BlendMode BlendMode = Alpha,
+						SpriteGeometryMode GeometryMode = ZPlane,
+						string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+					},
+					GunManStatus = 
+					{
+						bool CanShoot = false,
+						bool RayCast1 = false,
+						bool RayCast2 = false,
+						bool RayCast3 = false,
+						bool RayCast4 = false,
+						bool RayCast5 = false,
+						bool RayCast6 = false,
+						bool RayCast7 = false,
+						bool RayCast8 = false,
+						bool RayCast9 = false,
+					},
+					HeavyGunManBodyShoot = 
+					{
+						bool CanAnimate = true,
+						bool CanAnimateIdle = false,
+						bool CanShoot = false,
+						bool CanIdle = false,
+						float timer2 = 0,
+					},
+					Hierarchy = 
+					{
+						Cog = 
+						{
+							LinkId = 
+							{
+								uint Id = 4,
+							},
+							Named = 
+							{
+								string Name = "Look",
+							},
+							Transform = 
+							{
+								Vec3 Translation = [0.160388, 0.12012, 0],
+								Vec3 Scale = [0.2, 0.2, 1],
+								Quat Rotation = [0, 0, 0, 1],
+							},
+							Look = 
+							{
+							},
+							Look2 = 
+							{
+							},
+							Look3 = 
+							{
+							},
+							Look4 = 
+							{
+							},
+							Look5 = 
+							{
+							},
+							Look6 = 
+							{
+							},
+							Look7 = 
+							{
+							},
+							Look8 = 
+							{
+							},
+							Look9 = 
+							{
+							},
+							Hierarchy = 
+							{
+								Cog = 
+								{
+									LinkId = 
+									{
+										uint Id = 5,
+									},
+									Named = 
+									{
+										string Name = "LookPoint1",
+									},
+									Transform = 
+									{
+										Vec3 Translation = [22.8594, -0.263925, 0],
+										Vec3 Scale = [1, 1, 1],
+										Quat Rotation = [0, 0, 0, 1],
+									},
+								},
+								Cog = 
+								{
+									LinkId = 
+									{
+										uint Id = 6,
+									},
+									Named = 
+									{
+										string Name = "LookPoint2",
+									},
+									Transform = 
+									{
+										Vec3 Translation = [22.8594, 1.33361, 0],
+										Vec3 Scale = [1, 1, 1],
+										Quat Rotation = [0, 0, 0, 1],
+									},
+								},
+								Cog = 
+								{
+									LinkId = 
+									{
+										uint Id = 7,
+									},
+									Named = 
+									{
+										string Name = "LookPoint3",
+									},
+									Transform = 
+									{
+										Vec3 Translation = [22.8594, -1.99749, 0],
+										Vec3 Scale = [1, 1, 1],
+										Quat Rotation = [0, 0, 0, 1],
+									},
+								},
+								Cog = 
+								{
+									LinkId = 
+									{
+										uint Id = 8,
+									},
+									Named = 
+									{
+										string Name = "LookPoint4",
+									},
+									Transform = 
+									{
+										Vec3 Translation = [22.8594, -6.63503, 0],
+										Vec3 Scale = [1, 1, 1],
+										Quat Rotation = [0, 0, 0, 1],
+									},
+								},
+								Cog = 
+								{
+									LinkId = 
+									{
+										uint Id = 9,
+									},
+									Named = 
+									{
+										string Name = "LookPoint5",
+									},
+									Transform = 
+									{
+										Vec3 Translation = [22.8594, 4.55768, 0],
+										Vec3 Scale = [1, 1, 1],
+										Quat Rotation = [0, 0, 0, 1],
+									},
+								},
+								Cog = 
+								{
+									LinkId = 
+									{
+										uint Id = 10,
+									},
+									Named = 
+									{
+										string Name = "LookPoint6",
+									},
+									Transform = 
+									{
+										Vec3 Translation = [22.8594, -10.0735, 0],
+										Vec3 Scale = [1, 1, 1],
+										Quat Rotation = [0, 0, 0, 1],
+									},
+								},
+								Cog = 
+								{
+									LinkId = 
+									{
+										uint Id = 11,
+									},
+									Named = 
+									{
+										string Name = "LookPoint7",
+									},
+									Transform = 
+									{
+										Vec3 Translation = [22.8594, -16.1991, 0],
+										Vec3 Scale = [1, 1, 1],
+										Quat Rotation = [0, 0, 0, 1],
+									},
+								},
+								Cog = 
+								{
+									LinkId = 
+									{
+										uint Id = 12,
+									},
+									Named = 
+									{
+										string Name = "LookPoint8",
+									},
+									Transform = 
+									{
+										Vec3 Translation = [22.8594, 8.48733, 0],
+										Vec3 Scale = [1, 1, 1],
+										Quat Rotation = [0, 0, 0, 1],
+									},
+								},
+								Cog = 
+								{
+									LinkId = 
+									{
+										uint Id = 13,
+									},
+									Named = 
+									{
+										string Name = "LookPoint9",
+									},
+									Transform = 
+									{
+										Vec3 Translation = [22.8594, 22.2926, 0],
+										Vec3 Scale = [1, 1, 1],
+										Quat Rotation = [0, 0, 0, 1],
+									},
+								},
+							},
+						},
+						Cog = 
+						{
+							LinkId = 
+							{
+								uint Id = 14,
+							},
+							Named = 
+							{
+								string Name = "GiantMiniGun1",
+							},
+							Transform = 
+							{
+								Vec3 Translation = [1.17595, -0.266184, 0],
+								Vec3 Scale = [0.2, 0.2, 1],
+								Quat Rotation = [0, 0, 0, 1],
+							},
+							GiantMiniGun1 = 
+							{
+								float GlobalZ = 0,
+								float timer = 0,
+								float Delay = 0.1,
+								bool start = true,
+								float RandomAngle = 0,
+								float timer2 = 0,
+								bool CanAnimate = true,
+								bool CanAnimateIdle = false,
+								bool CanAnimateIdle2 = false,
+								bool CanShoot = false,
+								bool CanIdle = false,
+							},
+						},
+						Cog = 
+						{
+							LinkId = 
+							{
+								uint Id = 15,
+							},
+							Named = 
+							{
+								string Name = "GiantMiniGun2",
+							},
+							Transform = 
+							{
+								Vec3 Translation = [1.17595, -0.358144, 0],
+								Vec3 Scale = [0.2, 0.2, 1],
+								Quat Rotation = [0, 0, 0, 1],
+							},
+							GiantMiniGun1 = 
+							{
+								float GlobalZ = 0,
+								float timer = 0,
+								float Delay = 0.1,
+								bool start = true,
+								float RandomAngle = 0,
+								float timer2 = 0,
+								bool CanAnimate = true,
+								bool CanAnimateIdle = false,
+								bool CanAnimateIdle2 = false,
+								bool CanShoot = false,
+								bool CanIdle = false,
+							},
+						},
+						Cog = 
+						{
+							LinkId = 
+							{
+								uint Id = 16,
+							},
+							Named = 
+							{
+								string Name = "GiantMiniGun3",
+							},
+							Transform = 
+							{
+								Vec3 Translation = [1.17595, -0.454626, 0],
+								Vec3 Scale = [0.2, 0.2, 1],
+								Quat Rotation = [0, 0, 0, 1],
+							},
+							GiantMiniGun1 = 
+							{
+								float GlobalZ = 0,
+								float timer = 0,
+								float Delay = 0.1,
+								bool start = true,
+								float RandomAngle = 0,
+								float timer2 = 0,
+								bool CanAnimate = true,
+								bool CanAnimateIdle = false,
+								bool CanAnimateIdle2 = false,
+								bool CanShoot = false,
+								bool CanIdle = false,
+							},
+						},
+					},
+				},
+			},
+		},
+	},
+},

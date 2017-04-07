@@ -1,0 +1,20 @@
+ImageContent = 
+{
+	SpriteSourceBuilder = 
+	{
+		string Name = "TungBodyShoot",
+		uint64 ResourceId = 54a2e7be1e12306e,
+		uint64 AtlasId = 5274cf95e4a661fd,
+		uint FrameSizeX = 58,
+		uint FrameSizeY = 50,
+		uint FrameCount = 4,
+		float FrameDelay = 0.0416667,
+		float OriginX = 29,
+		float OriginY = 25,
+		float PixelsPerUnit = 64,
+		bool Smoothing = false,
+		bool Looping = true,
+		Vec4 Slices = [0, 0, 0, 0],
+		SpriteFill Fill = Stretch,
+	},
+},

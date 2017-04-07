@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "ExplodeBurst",
+		uint64 ResourceId = 54f1b2418f95ea0c,
+	},
+},

@@ -1,0 +1,86 @@
+Cog = 
+{
+	LinkId = 
+	{
+		uint Id = 1,
+	},
+	Named = 
+	{
+		string Name = "Grass1Bridge",
+	},
+	Archetyped = 
+	{
+		string Name = "54b3161519cddfca:Grass1Bridge",
+	},
+	Transform = 
+	{
+		Vec3 Translation = [23, -8.95, -9.91724e-008],
+		Vec3 Scale = [2, 2.2, 1],
+		Quat Rotation = [0, 0, 0, 1],
+	},
+	Sprite = 
+	{
+		string SpriteSource = "54b3448b0dbe5b16:Grass1",
+		bool FlipX = false,
+		bool FlipY = false,
+		Vec4 Color = [1, 1, 1, 1],
+		bool Visible = true,
+		bool OnTop = false,
+		bool AnimationActive = true,
+		float AnimationSpeed = 1,
+		uint StartFrame = 0,
+		BlendMode BlendMode = Alpha,
+		SpriteGeometryMode GeometryMode = ZPlane,
+		string SpriteLayer = "52ad5fa30d7fcd50:DefaultSpriteLayer",
+	},
+	RigidBody = 
+	{
+		bool Static = false,
+		bool Asleep = false,
+		bool Kinematic = true,
+		bool RotationLocked = false,
+		bool Mode2D = true,
+		bool AllowSleep = true,
+		bool Inherit2DMode = true,
+		Vec3 Velocity = [0, 0, 0],
+		Vec3 AngularVelocity = [0, 0, 0],
+	},
+	BoxCollider = 
+	{
+		bool Ghost = false,
+		bool SendsMessages = true,
+		bool Seamless = true,
+		string MaterialName = "4de020863e872da8:DefaultPhysicsMaterial",
+		string SerializedGroupName = "54b58a0ba3838c94:Terrain",
+		Vec3 Offset = [0, -0.05, 0],
+		Vec3 Size = [0.5, 0.45, 0.5],
+	},
+	Grass = 
+	{
+		float MaxHealth = 200,
+		float CurrentHealth = 200,
+		int RandomTexture = 0,
+		bool Start = true,
+	},
+	Hierarchy = 
+	{
+		ArchetypeInstance = 
+		{
+			string Name = "54b314028db9a913:BridgeTop",
+			LinkId = 
+			{
+				uint Id = 2,
+			},
+			Transform = 
+			{
+				Vec3 Translation = [1.52588e-005, 0.886365, 5],
+				Vec3 Scale = [1, 0.909091, 1],
+				Quat Rotation = [0, 0, 0, 1],
+			},
+			Named = 
+			{
+				string Name = "BridgeTop",
+			},
+		},
+	},
+},

@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "Destroyer",
+		uint64 ResourceId = 5498bef649cd9560,
+	},
+},

@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "GiantMiniGun1",
+		uint64 ResourceId = 54964dfc99bcbc40,
+	},
+},

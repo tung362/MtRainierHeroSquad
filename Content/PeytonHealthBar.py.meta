@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "PeytonHealthBar",
+		uint64 ResourceId = 5498f519eb963c87,
+	},
+},

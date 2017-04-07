@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "AustinSymbol",
+		uint64 ResourceId = 5498fb3a9566707d,
+	},
+},

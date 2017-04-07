@@ -1,0 +1,8 @@
+TextContent = 
+{
+	PyScriptBuilder = 
+	{
+		string Name = "SedrickHealth",
+		uint64 ResourceId = 549b6356fcb7ddd1,
+	},
+},
